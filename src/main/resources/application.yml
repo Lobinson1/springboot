@@ -1,0 +1,14 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://45.76.179.173:3306/cjx
+    username: lobinson
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+    max-active: 30
+
+mapper:
+  mappers:
+    - tk.mybatis.mapper.common.Mapper
+  notEmpty: true
